@@ -3,9 +3,9 @@ markdown: redcarpet
 paginate: 15
 pygments: true
 exclude: 
-  - node_modules
-  - bower_components
   - bower.json
+  - bower_components
   - Gruntfile.js
+  - node_modules
   - package.json
   - README.md
