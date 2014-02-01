@@ -4,6 +4,7 @@
   "dependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-uglify": "*",
+    "grunt-contrib-compass": "*",
     "grunt-contrib-copy": "*",
     "bower": "*",
     "grunt-exec": "*"    
