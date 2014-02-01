@@ -36,13 +36,21 @@ grunt.initConfig({
       //}
     //}
   },
-  //copy: {
+  copy: {
+    foundation: {
+      files: [
+        {expand: true,
+          cwd: 'bower_components/modernizr/',
+          src: 'modernizr.js',
+          dest: 'assets/js'}
+      ]
+    }
     //bootstrap: {
       //files: [
         //{expand: true, cwd: 'bower_components/bootstrap/img/', src: ['**'], dest: 'assets/img/'}
       //]
     //}
-  //},
+  },
   exec: {
     build: {
       cmd: 'jekyll build'
@@ -58,10 +66,10 @@ grunt.initConfig({
 
 grunt.loadNpmTasks('grunt-contrib-uglify');
 //grunt.loadNpmTasks('grunt-contrib-less');
-//grunt.loadNpmTasks('grunt-contrib-copy');
+grunt.loadNpmTasks('grunt-contrib-copy');
 grunt.loadNpmTasks('grunt-exec');
 
-grunt.registerTask('default', [ /*'less',*/ 'uglify', /*'copy',*/ 'exec:build' ]);
+grunt.registerTask('default', [ /*'less',*/ 'uglify', 'copy', 'exec:build' ]);
 //grunt.registerTask('deploy', [ 'default', 'exec:deploy' ]);
 
 };
