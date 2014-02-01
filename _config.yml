@@ -2,3 +2,10 @@ name: VimWTF?
 markdown: redcarpet
 paginate: 15
 pygments: true
+exclude: 
+  - node_modules
+  - bower_components
+  - bower.json
+  - Gruntfile.js
+  - package.json
+  - README.md
