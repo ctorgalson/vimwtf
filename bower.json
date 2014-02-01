@@ -1,0 +1,12 @@
+{
+  "name": "vimwtf",
+  "dependencies": {
+    "foundation": "latest",
+    "jquery": "latest"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
