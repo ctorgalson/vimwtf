@@ -1,6 +1,7 @@
 {
   "name": "vimwtf",
   "dependencies": {
+    "font-awesome": "latest",
     "foundation": "latest",
     "jquery": "latest"
   },
