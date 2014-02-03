@@ -3,9 +3,19 @@ module.exports = function(grunt) {
     compass: {
       dist: {
         options: {
-          sassDir: '_scss',
+          config: 'config.rb',
           cssDir: 'assets/css',
-          environment: 'production'
+          environment: 'production',
+          sassDir: '_scss'
+        }
+      },
+      dev: {
+        options: {
+          config: 'config.rb',
+          cssDir: 'assets/css',
+          environment: 'development',
+          sassDir: '_scss',
+          watch: true
         }
       }
     },
@@ -47,7 +57,7 @@ module.exports = function(grunt) {
         cmd: 'jekyll build'
       },
       serve: {
-        cmd: 'jekyll serve --watch'
+        cmd: 'jekyll serve --watch &' // Run jekyll in the background...
       },
       //deploy: {
         //cmd: 'rsync --progress -a --delete -e "ssh -q" _site/ myuser@host:mydir/'
@@ -60,7 +70,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-exec');
 
-  grunt.registerTask('default', [ 'copy' ]);
-  grunt.registerTask('dev', [ 'compass', 'uglify', 'exec' ]);
+  grunt.registerTask('default', [ 'copy', 'exec:build' ]);
+  grunt.registerTask('dev', [ 'uglify', 'exec:serve', 'compass' ]);
   //grunt.registerTask('deploy', [ 'default', 'exec:deploy' ]);
 };
