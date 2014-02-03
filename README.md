@@ -24,7 +24,7 @@ This site is built with [npm](https://npmjs.org/), [bower](http://bower.io/), [j
 2. run `npm install`
 3. run `bower install`
 4. run `grunt` (builds jekyll site for first time)
-5. run `grunt dev` (runs compass, uglify and `jekyll serve --watch`)
+5. run `grunt dev` (runs compass, ugfy and `jekyll serve --watch &`)
 5. make a post or make a change to \_scss/\_settings.scss etc
 7. visit [the site](http://localhost:4000)
 
@@ -40,3 +40,4 @@ This site is built with [npm](https://npmjs.org/), [bower](http://bower.io/), [j
 
 - https://coderwall.com/p/g1kqzg
 - https://github.com/gruntjs/grunt-contrib-watch
+- live reload
