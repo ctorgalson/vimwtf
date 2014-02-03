@@ -32,4 +32,12 @@ This site is built with [npm](https://npmjs.org/), [bower](http://bower.io/), [j
 
 ## References:
 
+- [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass)
+- [grunt-exec](https://npmjs.org/package/grunt-exec)
 - [Jekyll, Bower & Grunt](http://www.pletscher.org/blog/2013/05/27/website.html)
+- [Deploying Jekyll on
+  Heroku](http://blog.lifeoutthewindow.com/jekyll/update/2014/01/19/deploying-jekyll-on-heroku.html)
+
+**To-do**:
+
+- https://coderwall.com/p/g1kqzg
