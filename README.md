@@ -9,6 +9,8 @@ This site is built with [npm](https://npmjs.org/), [bower](http://bower.io/), [j
   [bower.json](https://github.com/ctorgalson/vimwtf/blob/master/bower.json); note that we never edit the files in bower_components)
 - **jekyll**: builds the static site (@see
   [_config.yml](https://github.com/ctorgalson/vimwtf/blob/master/_config.yml))
+- **compass**: makes css from sass (@see
+  [config.rb](https://github.com/ctorgalson/vimwtf/blob/master/config.rb); **note**: I haven't confirmed that this file is even being used since I'm running compass from grunt)
 - **grunt**: currently used for the following tasks (@see
   [Gruntfile.js](https://github.com/ctorgalson/vimwtf/blob/master/Gruntfile.js)):
   - run compass
