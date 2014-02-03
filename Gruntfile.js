@@ -7,7 +7,8 @@ module.exports = function(grunt) {
           cssDir: 'assets/css',
           environment: 'production'
         }
-      }    },
+      }
+    },
     uglify: {
       jquery: {
         files: {
@@ -27,10 +28,12 @@ module.exports = function(grunt) {
     copy: {
       foundation: {
         files: [
-          {expand: true,
+          {
+            expand: true,
             cwd: 'bower_components/modernizr/',
             src: 'modernizr.js',
-            dest: 'assets/js'}
+            dest: 'assets/js'
+          }
         ]
       }
       //bootstrap: {
@@ -57,6 +60,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-exec');
 
-  grunt.registerTask('default', [ 'compass', 'uglify', 'copy', 'exec:build' ]);
+  grunt.registerTask('default', [ 'copy' ]);
+  grunt.registerTask('dev', [ 'compass', 'uglify', 'exec' ]);
   //grunt.registerTask('deploy', [ 'default', 'exec:deploy' ]);
 };
