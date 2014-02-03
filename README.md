@@ -23,7 +23,7 @@ This site is built with [npm](https://npmjs.org/), [bower](http://bower.io/), [j
 1. clone this repo
 2. run `npm install`
 3. run `bower install`
-4. make a post or make a change to _scss/_settings.scss etc
+4. make a post or make a change to \_scss/\_settings.scss etc
 5. run `grunt`
 6. run `jekyll serve --watch` (I think grunt is supposed to be handling
    this the way I've set it up, but it doesn't seem to be
