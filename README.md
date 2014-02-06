@@ -41,4 +41,5 @@ This site is built with [npm](https://npmjs.org/), [bower](http://bower.io/), [j
 
 - https://coderwall.com/p/g1kqzg
 - https://github.com/gruntjs/grunt-contrib-watch
+- https://npmjs.org/package/grunt-s3
 - live reload
