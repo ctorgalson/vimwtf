@@ -35,6 +35,7 @@ This site is built with [npm](https://npmjs.org/), [bower](http://bower.io/), [j
 - [Jekyll, Bower & Grunt](http://www.pletscher.org/blog/2013/05/27/website.html)
 - [Deploying Jekyll on
   Heroku](http://blog.lifeoutthewindow.com/jekyll/update/2014/01/19/deploying-jekyll-on-heroku.html)
+- [Optimizing Images with Grunt](http://blog.grayghostvisuals.com/grunt/image-optimization/)
 
 **To-do**:
 

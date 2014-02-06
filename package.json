@@ -6,6 +6,8 @@
     "grunt-contrib-uglify": "*",
     "grunt-contrib-compass": "*",
     "grunt-contrib-copy": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-s3": "*",
     "bower": "*",
     "grunt-exec": "*"    
   },

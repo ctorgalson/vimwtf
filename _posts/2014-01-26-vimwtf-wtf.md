@@ -6,6 +6,8 @@ categories: blog
 tags: vim
 ---
 
+![Vim's default screen](/assets/img/vim-default.png)
+
 Welcome to VimWTF?. It's a blog about using the incredible but arcane [Vim text
 editor](https://en.wikipedia.org/wiki/Vim_%28text_editor%29). There are
 [lots of other Vim blogs](https://duckduckgo.com/?q=vim+blog) like [usevim](http://usevim.com) (not to
